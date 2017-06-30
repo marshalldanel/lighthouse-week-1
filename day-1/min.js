@@ -1,6 +1,6 @@
 function min(numbers) {
 
-var lowest = numbers[0];
+  var lowest = numbers[0];
 
   for (var i = 0; i < numbers.length; i++) {
     if (numbers[i] < lowest) {

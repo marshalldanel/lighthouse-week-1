@@ -1,8 +1,5 @@
 var arg = process.argv[2];
 
-
-obfuscate(arg);
-
 function obfuscate(arg) {
   var password = "";
   var letters = arg.split("");
@@ -27,3 +24,5 @@ function obfuscate(arg) {
   }
   console.log(password);
 }
+
+obfuscate(arg);
