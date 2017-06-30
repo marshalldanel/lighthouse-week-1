@@ -17,14 +17,11 @@ function whatToDoForLunch(hungry, availableTime) {
 
   if (hungry && availableTime < 20) {
     console.log('Get take out and head back to the lab.');
-  }
-  else if (hungry && availableTime >= 20 && availableTime <= 30) {
+  } else if (hungry && availableTime >= 20 && availableTime <= 30) {
     console.log('Try a new place nearby.');
-  }
-  else if (hungry && availableTime > 30) {
+  } else if (hungry && availableTime > 30) {
     console.log('You ain\'t got no time, get back to typing!');
-  }
-  else {
+  } else {
     console.log("Get back to work!");
   }
 }
