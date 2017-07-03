@@ -1,11 +1,13 @@
 function isPalindrome(str) {
   var noSpaces = str.split(" ").join("");
-  var mid = Math.floor(noSpaces.length/2);
+  var mid = Math.floor(noSpaces.length / 2);
   var last = noSpaces.length - 1;
 
   for (var i = 0; i < mid; i++) {
     var lower = noSpaces.toLowerCase();
-    if (lower[i] !== lower[last - i]) return false;
+    if (lower[i] !== lower[last - i]) {
+      return false;
+    }
   }
   return true;
 }
